@@ -12,17 +12,17 @@ int main()
 
     string s;
     int key;
+    
+    cout << "\nEnter the text: "; //Input should contain single string having alphabets only
+    cin >> s;
+
+    cout << "\nEnter the key value: ";
+    cin >> key;
 
     switch (ch) {
     case 1:
 
-        cout << "\nEnter the text: "; //Input should contain single string having alphabets only
-        cin >> s;
-
-        cout << "\nEnter the key value: ";
-        cin >> key;
-
-        cout << "\nThe encrypted text is: ";
+       cout << "\nThe encrypted text is: ";
 
         for (int i = 0; i < s.length(); i++) {
             if (islower(s[i]))
@@ -36,12 +36,6 @@ int main()
         break;
 
     case 2:
-
-        cout << "\nEnter the text: "; //Input should contain single string having alphabets only
-        cin >> s;
-
-        cout << "\nEnter the key value: ";
-        cin >> key;
 
         cout << "\nThe decrypted text is: ";
 
