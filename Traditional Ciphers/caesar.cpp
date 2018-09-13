@@ -1,4 +1,4 @@
-//Implementation of encryption and decryption in Caesar Cipher
+//Implementation of encryption and decryption using Caesar Cipher
 
 
 #include <bits/stdc++.h>
